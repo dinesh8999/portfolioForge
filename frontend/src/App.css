@@ -1,0 +1,218 @@
+/* Template Card Previews */
+.template-preview {
+  font-family: inherit;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* 1. Minimal */
+.template-minimal {
+  background: #f4f4f2;
+  color: #1a1a1a;
+}
+.template-minimal span {
+  color: #666666;
+}
+
+/* 2. Executive */
+.template-executive {
+  background: linear-gradient(135deg, #182233 0%, #0d121c 100%);
+  color: #f7f5f0;
+}
+.template-executive span {
+  color: #d4af37;
+  font-style: italic;
+}
+
+/* 3. Creative */
+.template-creative {
+  background: linear-gradient(135deg, #f7d5c5 0%, #f0bda8 100%);
+  color: #3b1d16;
+}
+.template-creative span {
+  color: #b84323;
+  font-style: italic;
+}
+
+/* 4. Neon */
+.template-neon {
+  background: radial-gradient(circle at 80% 20%, #152538 0%, #060b12 100%);
+  color: #e2f8ff;
+  border-bottom: 2px solid #00f2fe;
+}
+.template-neon span {
+  color: #00f2fe;
+  text-shadow: 0 0 10px rgba(0, 242, 254, 0.6);
+}
+
+/* 5. Editorial */
+.template-editorial {
+  background: #fdfbf7;
+  color: #1f1d1b;
+  font-family: Georgia, Cambria, "Times New Roman", Times, serif;
+}
+.template-editorial span {
+  color: #8c6d48;
+  font-style: italic;
+}
+
+/* 6. Modern Blue */
+.template-modern-blue {
+  background: linear-gradient(140deg, #eff6ff 0%, #dbeafe 100%);
+  color: #1e3a8a;
+}
+.template-modern-blue span {
+  color: #2563eb;
+  font-weight: 700;
+}
+
+/* 7. Terminal */
+.template-terminal {
+  background: #09110d;
+  color: #a7f3d0;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Courier New", monospace;
+  border-bottom: 2px solid #10b981;
+}
+.template-terminal span {
+  color: #10b981;
+  text-shadow: 0 0 8px rgba(16, 185, 129, 0.5);
+}
+
+/* 8. Warm */
+.template-warm {
+  background: linear-gradient(135deg, #fef3c7 0%, #fed7aa 100%);
+  color: #7c2d12;
+}
+.template-warm span {
+  color: #c2410c;
+  font-weight: 600;
+}
+
+/* 9. Product */
+.template-product {
+  background: linear-gradient(135deg, #f5f3ff 0%, #ede9fe 100%);
+  color: #3b0764;
+}
+.template-product span {
+  color: #7c3aed;
+  font-weight: 700;
+}
+
+/* 10. Cyberpunk */
+.template-cyberpunk {
+  background: #020408;
+  color: #f0fdf4;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  border-bottom: 2px solid #00ff66;
+}
+.template-cyberpunk span {
+  color: #00ff66;
+  text-shadow: 0 0 10px rgba(0, 255, 102, 0.7);
+}
+
+/* 11. Nordic */
+.template-nordic {
+  background: linear-gradient(145deg, #f8fafc 0%, #e2e8f0 100%);
+  color: #0f172a;
+  border-bottom: 2px solid #0284c7;
+}
+.template-nordic span {
+  color: #0284c7;
+  font-weight: 600;
+}
+
+/* 12. Brutalist */
+.template-brutalist {
+  background: #fffdf0;
+  color: #000000;
+  border-bottom: 4px solid #000000;
+}
+.template-brutalist span {
+  background: #ccff00;
+  color: #000000;
+  padding: 0 4px;
+  font-weight: 900;
+}
+
+/* 13. Aurora */
+.template-aurora {
+  background: radial-gradient(circle at 70% 30%, #1e1b4b 0%, #070913 100%);
+  color: #f8fafc;
+  border-bottom: 2px solid #38bdf8;
+}
+.template-aurora span {
+  background: linear-gradient(to right, #38bdf8, #c084fc);
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 700;
+}
+
+/* 14. Swiss */
+.template-swiss {
+  background: #ffffff;
+  color: #000000;
+  border-bottom: 3px solid #dc2626;
+}
+.template-swiss span {
+  color: #dc2626;
+  font-weight: 900;
+}
+
+/* 15. Synthwave */
+.template-synthwave {
+  background: linear-gradient(135deg, #130924 0%, #2e1065 100%);
+  color: #fae8ff;
+  border-bottom: 2px solid #ec4899;
+}
+.template-synthwave span {
+  color: #ec4899;
+  text-shadow: 0 0 10px rgba(236, 72, 153, 0.6);
+  font-style: italic;
+}
+
+/* 16. Academic */
+.template-academic {
+  background: #fbfbfa;
+  color: #1e293b;
+  font-family: Georgia, 'Times New Roman', serif;
+  border-bottom: 2px solid #831843;
+}
+.template-academic span {
+  color: #831843;
+  font-style: italic;
+}
+
+/* 17. Bento */
+.template-bento {
+  background: #09090b;
+  color: #f4f4f5;
+  border-bottom: 2px solid #f59e0b;
+}
+.template-bento span {
+  color: #f59e0b;
+  font-weight: 700;
+}
+
+/* 18. Luxe */
+.template-luxe {
+  background: #050505;
+  color: #ffffff;
+  font-family: Georgia, 'Times New Roman', serif;
+  border-bottom: 2px solid #e2e8f0;
+}
+.template-luxe span {
+  color: #e2e8f0;
+  letter-spacing: 0.08em;
+  font-style: italic;
+}
+
+/* 19. Retro OS */
+.template-retro-os {
+  background: #008080;
+  color: #ffffff;
+  font-family: 'Courier New', Courier, monospace;
+  border-bottom: 3px solid #000080;
+}
+.template-retro-os span {
+  color: #ffff00;
+  font-weight: bold;
+}

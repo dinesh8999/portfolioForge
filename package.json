@@ -1,0 +1,31 @@
+{
+  "name": "portfolioforge",
+  "version": "1.0.0",
+  "description": "PortfolioForge - Production Full-Stack Portfolio Website Builder",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "npm run dev:frontend",
+    "dev:frontend": "cd frontend && npm run dev",
+    "dev:backend": "cd backend && npm run dev",
+    "build": "cd frontend && npm run build",
+    "build:frontend": "cd frontend && npm run build",
+    "lint:frontend": "cd frontend && npx eslint src",
+    "test:frontend": "node test-frontend.js",
+    "test:e2e": "node test-e2e-readiness.js",
+    "test:backend": "cd backend && npm test"
+  },
+  "keywords": [
+    "portfolio",
+    "portfolio-builder",
+    "react",
+    "typescript",
+    "express",
+    "mongodb",
+    "vite",
+    "tailwind"
+  ],
+  "author": "PortfolioForge Team",
+  "license": "MIT"
+}
+
