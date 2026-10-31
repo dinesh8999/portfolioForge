@@ -75,11 +75,6 @@ app.get("/api/health", (_req, res) => {
     timestamp: new Date().toISOString(),
   });
 });
-    database: isConnected ? "connected" : "disconnected",
-    uptimeSeconds: Math.floor(process.uptime()),
-    timestamp: new Date().toISOString(),
-  });
-});
 
 // Routes
 app.use("/api/portfolios", portfolioRoutes);
